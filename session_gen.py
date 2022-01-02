@@ -4,7 +4,7 @@ from configparser import ConfigParser, NoOptionError, NoSectionError
 
 import os
 
-os.system(clear)
+os.system('clear')
 
 import pyrogram
 
