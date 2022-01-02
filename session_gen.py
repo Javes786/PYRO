@@ -2,6 +2,8 @@ import asyncio
 
 from configparser import ConfigParser, NoOptionError, NoSectionError
 
+import pyrogram
+
 from pyrogram import Client
 
 config = ConfigParser()
