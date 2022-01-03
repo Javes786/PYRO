@@ -39,3 +39,10 @@ async def main(app_id, api_hash):
         )
 
         print("Done !, session string has been sent to saved messages!")
+
+        
+ if __name__ == "__main__":
+
+    loop = asyncio.get_event_loop()
+
+    loop.run_until_complete(main(APP_ID, API_HASH))     
