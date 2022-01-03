@@ -26,11 +26,9 @@ except (NoOptionError, NoSectionError):
 
     API_HASH = input("enter Telegram API HASH: ")
 
-async def main(app_id, api_hash):
-
-    """generate StringSession for the current MemorySession"""
-
     async with Client(":memory:", api_id=APP_ID, api_hash=API_HASH) as app:
+
+print(app.export_session_string())
 
         await app.send_message(
 
