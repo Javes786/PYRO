@@ -18,11 +18,13 @@ print("")
 print("")
 print("")
 print("PYROGRAM STRING SESSION GENERATOR")
-print("COPYRIGHT© BY @CRIMINAL786")
-print("100% SAFE")
+print("COPYRIGHT © BY @CRIMINAL786")
+print("100% SAFE [ TRUSTED ]")
+print("")
 print("")
 APP_ID = int(input("PLEASE ENTER TELEGRAM APP ID: "))
 API_HASH = input("PLEASE ENTER TELEGRAM API HASH: ")
+try:
 with Client(":memory:", api_id=APP_ID, api_hash=API_HASH) as app:
         app.send_message(
             "me",
