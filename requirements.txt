@@ -1,4 +1,2 @@
-telethon
 pyrogram
-Python
 TgCrypto
