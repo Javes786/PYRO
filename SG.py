@@ -3,7 +3,6 @@ import os
 
 os.system('clear')
 
-import TgCrypto
 import pyrogram
 from pyrogram import Client
 from pyrogram import filters
