@@ -5,10 +5,21 @@ os.system('clear')
 
 import pyrogram
 from pyrogram import Client
+from pyrogram import filters
 
+hehe = """
 
-APP_ID = int(input("enter Telegram APP ID: "))
-API_HASH = input("enter Telegram API HASH: ")
+█▀█ █▄█ █▀█ █▀█ █▀▀ █▀█ ▄▀█ █▀▄▀█
+█▀▀ ░█░ █▀▄ █▄█ █▄█ █▀▄ █▀█ █░▀░█
+
+"""
+print ("hehe")
+
+print("")
+print("")
+print("")
+APP_ID = int(input("PLEASE ENTeR Telegram APP ID: "))
+API_HASH = input("PLEASE ENTeR Telegram API HASH: ")
 with Client(":memory:", api_id=APP_ID, api_hash=API_HASH) as app:
         app.send_message(
             "me",
