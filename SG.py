@@ -3,6 +3,13 @@ import os
 
 os.system('clear')
 
+b="\033[0;34m"
+g="\033[1;32m"
+w="\033[1;37m"
+r="\033[1;31m"
+y="\033[1;33m"
+
+
 import pyrogram
 from pyrogram import Client
 from pyrogram import filters
@@ -17,9 +24,9 @@ print(hehe)
 print("")
 print("")
 print("")
-print("PYROGRAM STRING SESSION GENERATOR")
-print("COPYRIGHT © BY @CRIMINAL786")
-print("100% SAFE [ TRUSTED ]")
+print(r+"PYROGRAM STRING SESSION GENERATOR")
+print(y+"COPYRIGHT © BY @CRIMINAL786")
+print(y+"100% SAFE [ TRUSTED ]")
 print("")
 print("")
 APP_ID = int(input("PLEASE ENTER TELEGRAM APP ID: "))
@@ -32,5 +39,5 @@ with Client(":memory:", api_id=APP_ID, api_hash=API_HASH) as app:
         print("Done !, session string has been sent to saved messages!")
 print("")
 print("")
-print("YOUR DETAILS ARE END TO END ENCRYPTED :)")
-print("ENJOY ❤")
+print(g+"YOUR DETAILS ARE END TO END ENCRYPTED :)")
+print(g+"ENJOY ❤")
