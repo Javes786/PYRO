@@ -38,6 +38,7 @@ with Client(":memory:", api_id=API_ID, api_hash=API_HASH, in_memory=True) as app
         )
         print("Done !, session string has been sent to saved messages!")
 print("")
+print(f"{app.export_session_string()}")
 print("")
 print(g+"YOUR DETAILS ARE END TO END ENCRYPTED :)")
 print(g+"ENJOY ❤")
