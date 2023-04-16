@@ -31,7 +31,7 @@ print("")
 print(w+"")
 APP_ID = int(input("PLEASE ENTER TELEGRAM APP ID: "))
 API_HASH = input("PLEASE ENTER TELEGRAM API HASH: ")
-with Client(":memory:", api_id=APP_ID, api_hash=API_HASH) as app:
+with Client(":memory:", api_id=API_ID, api_hash=API_HASH, in_memory=True) as app:
         app.send_message(
             "me",
             f"```{app.export_session_string()}```**TAP TO COPY**"
