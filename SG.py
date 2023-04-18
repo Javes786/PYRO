@@ -20,7 +20,7 @@ hehe = """
 █▀▀ ░█░ █▀▄ █▄█ █▄█ █▀▄ █▀█ █░▀░█
 
 """
-print("hehe")
+print(hehe)
 print("")
 print("")
 print("")
