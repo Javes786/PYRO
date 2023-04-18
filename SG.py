@@ -11,7 +11,7 @@ y="\033[1;33m"
 
 
 import pyrogram
-pyrogram.__version__'1.3.5'
+pyrogram.__version__1.3.5
 from pyrogram import Client
 from pyrogram import filters
 
