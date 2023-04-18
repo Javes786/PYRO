@@ -8,7 +8,7 @@ g="\033[1;32m"
 w="\033[1;37m"
 r="\033[1;31m"
 y="\033[1;33m"
-
+#version changes
 
 import pyrogram
 pyrogram.__version__
