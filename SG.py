@@ -14,13 +14,13 @@ import pyrogram
 from pyrogram import Client
 from pyrogram import filters
 
-print(b+"
+hehe = """
 
 █▀█ █▄█ █▀█ █▀█ █▀▀ █▀█ ▄▀█ █▀▄▀█
 █▀▀ ░█░ █▀▄ █▄█ █▄█ █▀▄ █▀█ █░▀░█
 
-")
-print("")
+"""
+print("hehe")
 print("")
 print("")
 print("")
