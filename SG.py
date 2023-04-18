@@ -32,9 +32,9 @@ print(w+"")
 APP_ID = int(input("PLEASE ENTER TELEGRAM APP ID: "))
 API_HASH = input("PLEASE ENTER TELEGRAM API HASH: ")
 with Client(":memory:", api_id=APP_ID, api_hash=API_HASH, in_memory=True) as app:
-        app.send_message(
+        await app.send_message(
             "me",
-            f"STRING_SESSION\n\n```{await app.export_session_string()}```**TAP TO COPY**"
+            f"STRING_SESSION\n\n`{app.export_session_string()}`**TAP TO COPY**"
         )
         print("Done !, session string has been sent to saved messages!")
 print("")
