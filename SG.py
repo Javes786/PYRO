@@ -14,13 +14,13 @@ import pyrogram
 from pyrogram import Client
 from pyrogram import filters
 
-hehe = b+"""
+print(b+"
 
 █▀█ █▄█ █▀█ █▀█ █▀▀ █▀█ ▄▀█ █▀▄▀█
 █▀▀ ░█░ █▀▄ █▄█ █▄█ █▀▄ █▀█ █░▀░█
 
-"""
-print("hehe")
+")
+print("")
 print("")
 print("")
 print("")
@@ -34,7 +34,7 @@ API_HASH = input("PLEASE ENTER TELEGRAM API HASH: ")
 with Client(":memory:", api_id=APP_ID, api_hash=API_HASH, in_memory=True) as app:
         app.send_message(
             "me",
-            f"STRING_SESSION\n\n`{app.export_session_string()}`**TAP TO COPY**"
+            f"STRING_SESSION\n\n`{app.export_session_string()}`\n\n**TAP TO COPY**"
         )
         print("Done !, session string has been sent to saved messages!")
 print("")
